@@ -1,0 +1,319 @@
+.container {
+    max-width: 960px;
+  }
+  
+  /*
+   * Custom translucent site header
+   */
+  
+  .site-header {
+    background-color: rgba(0, 0, 0, .85);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+  }
+  .site-header a {
+    color: #8e8e8e;
+    transition: color .15s ease-in-out;
+  }
+  .site-header a:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /*
+   * Dummy devices (replace them with your own or something else entirely!)
+   */
+  
+  .black {
+    background-color: #010000;
+  }
+
+
+  .product-device {
+    position: absolute;
+    right: 10%;
+    bottom: -30%;
+    width: 300px;
+    height: 540px;
+    /*background-color: #333;*/
+    border-radius: 21px;
+    transform: rotate(30deg);
+  }
+
+  .search-container {
+    /*width: 70%;*/
+    color:#fafafa;
+  }
+  
+  .search-container img{
+    width: 20%;
+    margin-bottom: 15px;
+  }
+  
+ .search {
+    margin: 0 auto;
+    width: 60%;
+    background-color: #fc9b06;
+    border-radius: 40px;
+  }
+
+  form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  form input[type="text"] {
+    width: 70%;
+    height: 50px;
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 10px 0 0 10px;
+    border: none;
+    outline: none;
+    background-color: #fc9b06;
+  }
+
+  form button[type="submit"] {
+    color: #010000;
+    cursor: pointer;
+    background-color: #fc9b06;
+    border: none;
+  }
+  
+  .search input[type="text"]::placeholder {
+    color: #1c1c1c;
+    text-align: center;
+  }
+
+  input::placeholder {
+    font-size: 15px;
+  }
+
+  .info-text {
+    margin: 0 auto;
+    width: 60%;
+    text-align: left;
+    font-size: 0.8rem;
+  }
+  
+  .product-device::before {
+    position: absolute;
+    top: 10%;
+    right: 10px;
+    bottom: 10%;
+    left: 10px;
+    content: "";
+    /*background-color: rgba(255, 255, 255, .1);*/
+    border-radius: 5px;
+  }
+  
+  .product-device-2 {
+    top: -25%;
+    right: auto;
+    bottom: 0;
+    left: 5%;
+    /*background-color: #e5e5e5;*/
+  }
+
+
+/*------------------------------------------------*/
+/* iPhone Design */
+.iphone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.iphone-x {
+  position: relative;
+  z-index: 1;
+  height: 527px;
+  width: 259.7px;
+}
+.iphone-x *, .iphone-x *::before, .iphone-x *::after {
+  box-sizing: border-box;
+  display: block;
+}
+.iphone-x .bazzel {
+  background: #fff;
+  border-radius: 41px;
+  box-shadow: inset 0 0 2px 2px #c8cacb, inset 0 0 0 6px #e2e3e4;
+  height: 527px;
+  padding: 12px 18.5px;
+  width: 259.7px;
+  z-index: 1;
+}
+.iphone-x .screen {
+  background: #1c1c1c;
+  background-position: center center;
+  background-size: cover;
+  border-radius: 32px;
+  height: 505px;
+  position: relative;
+  width: 238.44px;
+  margin-left: -8px;
+}
+.iphone-x .line::after, .iphone-x .line::before {
+  content: "";
+  position: absolute;
+  border: solid rgba(68, 68, 68, 0.25);
+  border-width: 0 6px;
+  height: 5px;
+  left: 0;
+  width: 100%;
+  z-index: 9;
+}
+.iphone-x .line::after {
+  top: 51.6px;
+}
+.iphone-x .line::before {
+  bottom: 51.6px;
+}
+.iphone-x .header {
+  background: #fff;
+  border-bottom-left-radius: 12.1px;
+  border-bottom-right-radius: 12.1px;
+  height: 15.1px;
+  left: 50%;
+  margin-left: -63px;
+  position: absolute;
+  top: 11.4px;
+  width: 124.5px;
+  z-index: 199;
+}
+.iphone-x .sensor-1::after, .iphone-x .sensor-1::before {
+  content: "";
+  position: absolute;
+}
+.iphone-x .sensor-1::after {
+  background: #444;
+  border-radius: 50%;
+  height: 8px;
+  width: 8px;
+  left: 1%;
+  margin-left: 10px;
+  top: 1px;
+}
+.iphone-x .sensor-1::before {
+  background: #444;
+  border-radius: 50%;
+  height: 8px;
+  width: 8px;
+  left: 10%;
+  margin-left: 15px;
+  top: 1px;
+}
+.iphone-x .sensor-2::after, .iphone-x .sensor-2::before {
+  content: "";
+  position: absolute;
+}
+.iphone-x .sensor-2::before {
+  background: #444;
+  border-radius: 1.89px;
+  height: 3.8px;
+  width: 30.4px;
+  left: 50%;
+  margin-left: -15px;
+  top: 4px;
+}
+.iphone-x .sensor-3::after, .iphone-x .sensor-3::before {
+  content: "";
+  position: absolute;
+}
+.iphone-x .sensor-3::before {
+  background: #444;
+  border-radius: 50%;
+  height: 8px;
+  width: 8px;
+  left: 50%;
+  margin-left: 27px;
+  top: 1px;
+}
+.iphone-x .sensor-3::after {
+  background: #444;
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+  left: 65%;
+  margin-left: 27px;
+}
+.iphone-x .volume-button {
+  background: #c8cacb;
+  height: 26px;
+  left: -2px;
+  position: absolute;
+  top: 92px;
+  width: 3px;
+}
+.iphone-x .volume-button::after, .iphone-x .volume-button::before {
+  content: "";
+  position: absolute;
+  background: #c8cacb;
+  height: 38px;
+  left: 0;
+  width: 2.3px;
+}
+.iphone-x .volume-button::after {
+  top: 36.45px;
+}
+.iphone-x .volume-button::before {
+  top: 85px;
+}
+.iphone-x .power-button {
+  background: #c8cacb;
+  height: 60.76px;
+  right: -2px;
+  position: absolute;
+  top: 121.5px;
+  width: 3px;
+}
+
+/* Get information section */
+.getInfo {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  word-wrap: break-word;
+  color:#fafafa;
+}
+
+.messages {
+  padding: 12px;
+  text-align: left;
+}
+
+.numero{
+  padding-top: 35px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+  /*
+   * Extra utilities
+   */
+  
+  .flex-equal > * {
+    flex: 1;
+  }
+  @media (min-width: 768px) {
+    .flex-md-equal > * {
+      flex: 1;
+    }
+    .iphone {
+      display: flex;
+      justify-content: left;      
+    }
+
+    input::placeholder {
+      font-size: 20px;
+    }
+  }

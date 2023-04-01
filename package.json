@@ -1,0 +1,23 @@
+{
+  "name": "patomalo.cl",
+  "version": "1.0.0",
+  "description": "Sitio Web para denunciar a estafadores telefónicos.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alejandro Poirier",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "bootstrap": "^5.3.0-alpha1",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "mongodb": "^5.1.0",
+    "mongoose": "^7.0.2",
+    "mysql2": "^3.2.0",
+    "path": "^0.12.7",
+    "sequelize": "^6.29.3"
+  }
+}

@@ -1,0 +1,4 @@
+1- Agregar página y logica de envios de denuncia a través de mails.
+2- Agregar validación con emails, usando express-validator.
+3- Luego de agregar la validación, se debe mantener el texto expuesto para mejorar la experiencia de usuario.
+4- Agregar opcion para subir imagener de pantallazos del intento de estafa.
