@@ -31,9 +31,11 @@ mongoose
           console.log("Dummy phone number created!");
         });
       }
-      app.listen(process.env.HOST, () => {
-        console.log("Server started on port 3000!");
-      });
+      // app.listen(process.env.HOST, () => {
+      //   console.log("Server started on port 3000!");
+      // });
+      app.listen(process.env.HTTP_PORT, process.env.IP);
+      app.on('listening', () => console.info(`Node App running at http://${process.env.IP}:${process.env.HTTP_PORT}`));
     });
   })
   .catch(err => {
