@@ -1,0 +1,19 @@
+Comandos utilizados: 
+sudo apt-get update
+sudo apt-get upgrade
+curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+sudo apt-get install -y nodejs
+node --version
+npm --version
+sudo apt-get install libcap2-bin
+sudo setcap cap_net_bind_service=+ep `readlink -f \`which node\``
+sudo npm install pm2 -g
+pm2 ls
+pm2 startup
+sudo apt-get install git
+git clone https://github.com/JeovaniMartinez/Ge...
+cp .env.example .env
+nano .env
+npm install
+pm2 start app.js
+pm2 save
