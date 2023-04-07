@@ -316,4 +316,8 @@ footer {
     input::placeholder {
       font-size: 20px;
     }
+
+    .info-text {
+      font-size: 1.2rem;
+    }
   }

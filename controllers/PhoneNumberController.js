@@ -44,8 +44,8 @@ exports.buscarComentarios = (req, res) => {
 exports.getHome = (req, res) => {
   res.render("search", {
     title: "Los comentarios aparecerán aquí",
-    comments: ["Este es el primer parrafo de el comentario mandado sobre alguna de las estafas que seran mencionadas en esta super aplicacion, la idea es que el usuario pueda buscar el numero de telefono de una persona y de esta manera, el prodrá ver si es que tiene alguna denuncia de estafa, esta denuncia luego aparecera en la pantalla del iphone.",
-  "Este es el segundo parrafo, Este es el primer parrafo de el comentario mandado sobre alguna de las estafas que seran mencionadas en esta super aplicacion, la idea es que el usuario pueda buscar el numero de telefono de una persona y de esta manera, el prodrá ver si es que tiene alguna denuncia de estafa, esta denuncia luego aparecera en la pantalla del iphone."]
+    comments: ["Al buscar un número de WhatsApp, las denuncias registradas aparecerán aquí.",
+  "Si el número no tiene denuncias asociadas, aparecerá el siguiente mensaje:", "\"Sin comentarios asociados a este numero\""]
   });
 }
 
